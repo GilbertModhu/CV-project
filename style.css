@@ -1,0 +1,100 @@
+/*header section*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+
+}
+.container{
+    max-width: 1000px;
+    background-image: linear-gradient(to right, white, skyblue);
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-image{
+    width: 100px;
+    height: 100px;
+    border: 3px solid grey;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 25px;
+}
+h1,h2,h3,h4.h5,h6{
+    color: grey;
+}
+
+.header-contact{
+    float: right;
+    padding: 25px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: blue;
+}
+
+.header-contact a:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: help;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*header end*/
+/*personal section start*/
+#personal-section{
+
+}
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: auto;
+    margin: 20px auto;
+}
+/*Skill start*/
+.software-skills{
+    float: left;
+    width: 35%;
+}
+.programming-skills{
+    float: right;
+    width: 50%;
+    
+}
+
+/*Skill end*/
+/*footer start*/
+.footer-container{
+    background-image: linear-gradient(to right, skyblue, white);
+    width: auto;
+    height: 60px;
+    text-align: center;
+    padding: 5px;
+    
+}
+/*footer end*/
